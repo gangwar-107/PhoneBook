@@ -74,7 +74,7 @@ public class phonebook extends JFrame {
 			FileReader fw=new FileReader(f);
 			BufferedReader br=new BufferedReader(fw);
 			list.removeAll();
-			String str;
+			String str; 
 			while((str=br.readLine())!=null)
 			{
 				if(str.split(",")[0].equals(st))
